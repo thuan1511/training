@@ -43,35 +43,35 @@ formatter.match({
   "location": "drapAndDropSteps.visit_the_site()"
 });
 formatter.result({
-  "duration": 12128540008,
+  "duration": 76534599388,
   "status": "passed"
 });
 formatter.match({
   "location": "drapAndDropSteps.get_title_of_page()"
 });
 formatter.result({
-  "duration": 27240715,
+  "duration": 28762111,
   "status": "passed"
 });
 formatter.match({
   "location": "drapAndDropSteps.click_into_link()"
 });
 formatter.result({
-  "duration": 2099638016,
+  "duration": 2732799960,
   "status": "passed"
 });
 formatter.match({
   "location": "drapAndDropSteps.drap_and_drop_element()"
 });
 formatter.result({
-  "duration": 547187169,
+  "duration": 1650563113,
   "status": "passed"
 });
 formatter.match({
   "location": "drapAndDropSteps.exit_page()"
 });
 formatter.result({
-  "duration": 2082334520,
+  "duration": 119727075,
   "status": "passed"
 });
 });

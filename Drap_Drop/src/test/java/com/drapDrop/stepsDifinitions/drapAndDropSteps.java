@@ -33,13 +33,13 @@ public class drapAndDropSteps extends TestBase {
 	@Then("^click into link$")
 	public void click_into_link() {
 		
-		index.ClickDropLink();
+		index.ClickDropLink(prop.getProperty("jquery-DropLink"));
 	    
 	}
 
 	@Then("^drap and drop element$")
 	public void drap_and_drop_element(){
-	    index.drapanddrop();
+	    index.drapanddrop(prop.getProperty("jquery-iframe"), prop.getProperty("jquery-drap"), prop.getProperty("jquery-drop"));
 	}
 
 	@Then("^exit page$")
