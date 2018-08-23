@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.88494">
+<testcase classname="Drap and Drop element" name="Application with cucumber" time="16.88494">
+<system-out><![CDATA[Given visit the site........................................................passed
+When get title of page......................................................passed
+Then click into link........................................................passed
+And drap and drop element...................................................passed
+Then exit page..............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

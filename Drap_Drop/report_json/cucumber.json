@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Application with cucumber",
+        "description": "",
+        "id": "drap-and-drop-element;application-with-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12128540008,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "visit the site",
+            "match": {
+              "location": "drapAndDropSteps.visit_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27240715,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "get title of page",
+            "match": {
+              "location": "drapAndDropSteps.get_title_of_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2099638016,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click into link",
+            "match": {
+              "location": "drapAndDropSteps.click_into_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 547187169,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "drap and drop element",
+            "match": {
+              "location": "drapAndDropSteps.drap_and_drop_element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082334520,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "exit page",
+            "match": {
+              "location": "drapAndDropSteps.exit_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Drap and Drop element",
+    "description": "",
+    "id": "drap-and-drop-element",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/drapDrop/features/Application.feature"
+  }
+]
