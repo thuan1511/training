@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.616852">
+    <testcase classname="Search Trip on Expedia" name="Search normal" time="47.616852">
+        <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@id=&quot;gcw-flights-form-hp-flight&quot;]/div[3]/div[1]/div/div[2] (tried for 20 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'THUAN-PC', ip: '192.168.1.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Thuan\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51508}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}&#10;Session ID: f8ba003aaa6d95368b9f23bd2cbe0a50&#13;&#10;&#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)&#13;&#10;&#9;at com.Expedia.pages.ExpediaIndex.waitForControlInvisible(ExpediaIndex.java:376)&#13;&#10;&#9;at com.Expedia.DifinitionSteps.ExpediaSteps.enter_information(ExpediaSteps.java:45)&#13;&#10;&#9;at ✽.Then Enter information(src/test/java/com/Expedia/features/Expedia.feature:9)&#13;&#10;">
+            <![CDATA[Given Open init browser.....................................................passed
+When Click on Flights.......................................................passed
+Then Enter information......................................................failed
+And Click on Search.........................................................skipped
+Then Check validate information.............................................skipped
+And Close init browser......................................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.xpath: //*[@id="gcw-flights-form-hp-flight"]/div[3]/div[1]/div/div[2] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'THUAN-PC', ip: '192.168.1.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Thuan\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51508}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: f8ba003aaa6d95368b9f23bd2cbe0a50
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.Expedia.pages.ExpediaIndex.waitForControlInvisible(ExpediaIndex.java:376)
+	at com.Expedia.DifinitionSteps.ExpediaSteps.enter_information(ExpediaSteps.java:45)
+	at ✽.Then Enter information(src/test/java/com/Expedia/features/Expedia.feature:9)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
